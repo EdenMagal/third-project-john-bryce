@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(rgb(164, 248, 248), rgb(66, 142, 230));
+}
+
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.vacation-list {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.l-r {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 100vh;
+}
+
+.l-r>h1 {
+    font-size: 65px;
+    text-shadow: rgb(106, 106, 197) 2px 2px 5px;
+
+}
+
+.exit {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+input {
+    padding: 5px;
+}
+
+.edit {
+    border-radius: 10px;
+    z-index: 1;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    top: 25vh;
+    bottom: 25vh;
+    right: 25vw;
+    left: 25vw;
+    justify-content: space-evenly;
+    height: auto !important;
+    background: linear-gradient(rgb(142, 236, 236), rgb(32, 130, 241));
+}
+
+.search-btn {
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(146, 240, 208, 0.3);
+}
+
+.info-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.vacation {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid black;
+    gap: 5px;
+    width: 700px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.scroll {
+    width: 100%;
+    overflow-y: scroll;
+    position: absolute;
+    bottom: 0;
+    height: 250px;
+}
+
+.reports{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.admin-buttons {
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+.like-button {
+    background-color: transparent;
+}
+
+
+
+.vacation>div {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.vacation>div>img {
+    width: 100%;
+    height: 100%;
+}
+
+.search {
+    position: absolute;
+    top: 25px;
+}
+
+/* .edit > .vacation {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+} */
+
+.edit > input {
+    width:35%
+}
+
